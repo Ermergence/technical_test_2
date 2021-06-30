@@ -1,4 +1,4 @@
-Please read all the questions before starting the test.
+**Please read all the questions before starting the test**
 
 For this exercise, you are not allowed to use any exchange connector Python modules to acces Kraken trade records.
 
@@ -13,13 +13,13 @@ The trader needs to know what his total exposure is. Read the file and calculate
 3. We asked you to not use any exchange connector modules. Can you explain why it could be the case in a real project scenario ?
 
  
+#### Requirements: 
 
-Requirements: 
 The code must be packaged in a docker image.
 
-The program will take as command-line argument --t which will be the path to the trade file containing orders to reconcile.
+The program needs to take as an input a command: `calculateExposure` or `reconcile`.
 
-The program needs to take as an input a command. This command will use an argument to launch  the calculation of the exposure and another one the trades reconciliation.
+The program will take as command-line argument `--t` which will be the path to the trade file containing orders to reconcile.
 
 The program must output a file exposure.csv with the exposure.
 
