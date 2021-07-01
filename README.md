@@ -26,3 +26,7 @@ The program must output a file exposure.csv with the exposure.
 The program must output a file reconciled_trades.csv with corrected orders.
 
 The code has to be delivered in a GitHub repository.
+
+API Kraken credentials : 
+Key: zyG0gGyCr+rzQTypWJXzewq0ZX8LY5H0LtruGUNEvW7IggqWCEPA6Bo1 
+Secret: ZC3tybYAVZQ19jpe4UVprAndnHVPmBH9ViSCC9qJDOlVTOZ2DQm7I/vuQlf/fa48vPDyWpBWviY8g/cobD7bTg==
